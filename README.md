@@ -1,2 +1,2 @@
-# re-scrution
-form for new school students
+# synchronousBallMovement
+Ball moving synchronously
