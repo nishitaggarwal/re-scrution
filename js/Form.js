@@ -40,6 +40,9 @@ var button7 = createButton("500")
 var button8 = createButton("1000")
 var button9 = createButton("MORE")
 
+var greeting6 = createElement("h3")
+
+
 
 button.mousePressed(function() {
 
@@ -108,7 +111,8 @@ button2.position(450,243)
      //var button4 = createButton("NO")
      button4.position(470,268)
      button3.position(470,243)
-    
+          
+   
     
      })
 
@@ -155,12 +159,71 @@ button2.position(450,243)
         button9.position(470,318)
        
      
-     
-     
         
         } )
     
+     
+     button5.mousePressed(function(){
+     
+     
+     greeting4.hide()
+     button5.hide()
+     //button6.hide()
+     button7.hide()
+     button8.hide() 
+          button9.hide()
+          
+          greeting6.html("thankyou my friend")
+          greeting6.position(450,160)
+          
+     })
 
+     button7.mousePressed(function(){
+     
+     
+     greeting4.hide()
+     button5.hide()
+     //button6.hide()
+     button7.hide()
+     button8.hide() 
+          button9.hide()
+          
+          greeting6.html("thankyou my friend")
+          greeting6.position(450,160)
+          
+     })
+     
+     
+     button8.mousePressed(function(){
+     
+     
+     greeting4.hide()
+     button5.hide()
+     //button6.hide()
+     button7.hide()
+     button8.hide() 
+          button9.hide()
+          
+          greeting6.html("thankyou my friend")
+          greeting6.position(450,160)
+          
+     })
+     
+     
+     button9.mousePressed(function(){
+     
+     
+     greeting4.hide()
+     button5.hide()
+     //button6.hide()
+     button7.hide()
+     button8.hide() 
+     button9.hide()     
+          greeting6.html("thankyou my friend")
+          greeting6.position(450,160)
+          
+     })
+     
      }
 
 
